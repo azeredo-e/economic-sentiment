@@ -1,0 +1,24 @@
+# Every result records prompt_version, model and run date.
+llm:
+  provider: anthropic
+  bulk_model: claude-haiku-5-5      # per-article scoring
+  judge_model: claude-sonnet-5-5    # low-confidence escalation (M5)
+  max_retries: 3
+  # No temperature/top_p/top_k: Haiku 5.5 and Sonnet 5.5 reject non-default sampling (HTTP 400).
+  # Reproducibility comes from the response cache plus recording prompt version and model.
+  effort: low            # output_config.effort for bulk scoring; thinking tokens bill as output
+prompt_version: v1
+cache:
+  path: data/processed/llm_cache.sqlite   # keyed by article id + prompt hash + model
+budget:
+  total_usd: 10.0          # total API budget for the whole project
+  hard_stop_fraction: 0.9  # runners abort before exceeding this share of total_usd
+  # Plan: measure real cost on ~50 articles first, then size the sample to fit.
+sampling:
+  seed: 42
+  articles_per_topic_per_month: 30   # ~25k articles; raise only if measured cost allows
+  text_fields: [headline, lead]
+gold:
+  target_size: 300
+  stratify_by: [topic, year]
+confidence_escalation_threshold: 0.6
