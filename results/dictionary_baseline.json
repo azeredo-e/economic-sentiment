@@ -1,0 +1,131 @@
+{
+ "n_gold_relevant_and_llm_relevant": 211,
+ "arms": {
+  "en_plain": {
+   "tau_tuned_on_dev": 0.01,
+   "test_at_tuned_tau": {
+    "n": 139,
+    "macro_f1": 0.5289798105868805,
+    "kappa": 0.30661097977834306,
+    "acc_unweighted": 0.5179856115107914
+   },
+   "all_at_tau0": {
+    "n": 211,
+    "macro_f1": 0.5184738462269264,
+    "kappa": 0.28007762678114023,
+    "acc_unweighted": 0.5165876777251185
+   },
+   "spearman_all": 0.49051348928293015,
+   "spearman_ci95": [
+    0.3778323512273805,
+    0.596995838410082
+   ]
+  },
+  "en_shifter": {
+   "tau_tuned_on_dev": 0.02,
+   "test_at_tuned_tau": {
+    "n": 139,
+    "macro_f1": 0.5401111469039009,
+    "kappa": 0.3406515271659246,
+    "acc_unweighted": 0.5035971223021583
+   },
+   "all_at_tau0": {
+    "n": 211,
+    "macro_f1": 0.5185460334310069,
+    "kappa": 0.2800558475790702,
+    "acc_unweighted": 0.5165876777251185
+   },
+   "spearman_all": 0.48214985266024785,
+   "spearman_ci95": [
+    0.3638880935036732,
+    0.5911617719964519
+   ]
+  },
+  "en_stripped": {
+   "tau_tuned_on_dev": 0.015,
+   "test_at_tuned_tau": {
+    "n": 139,
+    "macro_f1": 0.5240180616368008,
+    "kappa": 0.29696812868597433,
+    "acc_unweighted": 0.5251798561151079
+   },
+   "all_at_tau0": {
+    "n": 211,
+    "macro_f1": 0.5194200482056147,
+    "kappa": 0.2810619506058094,
+    "acc_unweighted": 0.5260663507109005
+   },
+   "spearman_all": 0.4897495540966624,
+   "spearman_ci95": [
+    0.37281179199715286,
+    0.5956697062817248
+   ]
+  },
+  "thesis_text": {
+   "tau_tuned_on_dev": 0.005,
+   "test_at_tuned_tau": {
+    "n": 98,
+    "macro_f1": 0.41197704734755475,
+    "kappa": 0.16743258903947722,
+    "acc_unweighted": 0.45918367346938777
+   },
+   "all_at_tau0": {
+    "n": 147,
+    "macro_f1": 0.3359995803796109,
+    "kappa": 0.11948587331031812,
+    "acc_unweighted": 0.41496598639455784
+   },
+   "spearman_all": 0.46421763169029245,
+   "spearman_ci95": [
+    0.3174323021902692,
+    0.5908520761196288
+   ],
+   "n_items_in_thesis_cleaned_set": 147
+  }
+ },
+ "llm_same_items": {
+  "tau_tuned_on_dev": 0,
+  "test_at_tuned_tau": {
+   "n": 139,
+   "macro_f1": 0.7349233124960666,
+   "kappa": 0.6435551464854151,
+   "acc_unweighted": 0.7985611510791367
+  },
+  "all_at_tau0": {
+   "n": 211,
+   "macro_f1": 0.719769563267949,
+   "kappa": 0.6103272108759434,
+   "acc_unweighted": 0.7867298578199052
+  },
+  "spearman_all": 0.9112203029560746,
+  "spearman_ci95": [
+   0.8872622466692824,
+   0.9280648612027061
+  ]
+ },
+ "llm_on_thesis_subset": {
+  "tau_tuned_on_dev": 0,
+  "test_at_tuned_tau": {
+   "n": 98,
+   "macro_f1": 0.6988076256575603,
+   "kappa": 0.5591624723677279,
+   "acc_unweighted": 0.7653061224489796
+  },
+  "all_at_tau0": {
+   "n": 147,
+   "macro_f1": 0.6466566426477368,
+   "kappa": 0.4886006152650342,
+   "acc_unweighted": 0.7687074829931972
+  },
+  "spearman_all": 0.9075819839950158,
+  "spearman_ci95": [
+   0.8749160807205209,
+   0.9278883136619159
+  ]
+ },
+ "share_zero_score": {
+  "en_plain": 0.2985781990521327,
+  "en_shifter": 0.2985781990521327,
+  "en_stripped": 0.3080568720379147
+ }
+}

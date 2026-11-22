@@ -1,0 +1,626 @@
+{
+ "meta": {
+  "n_labelled": 300,
+  "n_total": 300,
+  "pending": 0,
+  "problems": 0
+ },
+ "results": {
+  "test": {
+   "n_labelled": 200,
+   "kish_n_eff": 66.83860449919884,
+   "relevance": {
+    "weighted": {
+     "n": 200,
+     "n_pos_true": 156,
+     "n_pos_pred": 139,
+     "accuracy": 0.6483869833753222,
+     "precision": 0.5964579713269949,
+     "recall": 0.6719891918028207,
+     "f1": 0.6319747826269642,
+     "macro_f1": 0.6476863223035652,
+     "kappa": 0.29765036753482355
+    },
+    "unweighted": {
+     "n": 200,
+     "n_pos_true": 156,
+     "n_pos_pred": 139,
+     "accuracy": 0.655,
+     "precision": 0.8129496402877698,
+     "recall": 0.7243589743589743,
+     "f1": 0.7661016949152543,
+     "macro_f1": 0.5544794188861986,
+     "kappa": 0.11719549641760485
+    },
+    "ci_macro_f1": [
+     0.5351457779365996,
+     0.7337745776424763
+    ],
+    "confusion": {
+     "relevant": {
+      "relevant": 113,
+      "irrelevant": 26
+     },
+     "irrelevant": {
+      "relevant": 43,
+      "irrelevant": 18
+     }
+    }
+   },
+   "topic": {
+    "weighted": {
+     "n": 156,
+     "accuracy": 0.4127481646124628,
+     "macro_f1": 0.43827645308300456,
+     "kappa": 0.30542326126521857
+    },
+    "unweighted": {
+     "n": 156,
+     "accuracy": 0.4230769230769231,
+     "macro_f1": 0.4711831399226357,
+     "kappa": 0.3252919409870729
+    },
+    "confusion": {
+     "industria": {
+      "industria": 11,
+      "agronegocio": 6,
+      "mercado_financeiro": 0,
+      "mercado_trabalho": 5,
+      "servicos": 5,
+      "none": 0
+     },
+     "agronegocio": {
+      "industria": 2,
+      "agronegocio": 26,
+      "mercado_financeiro": 2,
+      "mercado_trabalho": 3,
+      "servicos": 5,
+      "none": 0
+     },
+     "mercado_financeiro": {
+      "industria": 4,
+      "agronegocio": 0,
+      "mercado_financeiro": 13,
+      "mercado_trabalho": 0,
+      "servicos": 4,
+      "none": 0
+     },
+     "mercado_trabalho": {
+      "industria": 0,
+      "agronegocio": 0,
+      "mercado_financeiro": 0,
+      "mercado_trabalho": 9,
+      "servicos": 0,
+      "none": 0
+     },
+     "servicos": {
+      "industria": 2,
+      "agronegocio": 0,
+      "mercado_financeiro": 3,
+      "mercado_trabalho": 6,
+      "servicos": 7,
+      "none": 0
+     },
+     "none": {
+      "industria": 9,
+      "agronegocio": 2,
+      "mercado_financeiro": 10,
+      "mercado_trabalho": 10,
+      "servicos": 12,
+      "none": 0
+     }
+    }
+   },
+   "sentiment": {
+    "weighted": {
+     "n": 156,
+     "accuracy": 0.45263726542268873,
+     "macro_f1": 0.4216133104895953,
+     "kappa": 0.15564412234824743,
+     "kappa_linear": 0.12677780785287485
+    },
+    "unweighted": {
+     "n": 156,
+     "accuracy": 0.41025641025641024,
+     "macro_f1": 0.4099473507337292,
+     "kappa": 0.11314342210962125,
+     "kappa_linear": 0.15983843046739743
+    },
+    "spearman_score_vs_gold": 0.20461748537819102,
+    "ci_macro_f1": [
+     0.2956186273688346,
+     0.5201335023278694
+    ],
+    "confusion": {
+     "negative": {
+      "negative": 24,
+      "neutral": 22,
+      "positive": 17
+     },
+     "neutral": {
+      "negative": 23,
+      "neutral": 24,
+      "positive": 18
+     },
+     "positive": {
+      "negative": 3,
+      "neutral": 9,
+      "positive": 16
+     }
+    },
+    "per_topic": {
+     "agronegocio": {
+      "n": 34,
+      "accuracy": 0.6649354615886331
+     },
+     "industria": {
+      "n": 28,
+      "accuracy": 0.4165723409688253
+     },
+     "mercado_financeiro": {
+      "n": 28,
+      "accuracy": 0.408816214670457
+     },
+     "mercado_trabalho": {
+      "n": 33,
+      "accuracy": 0.42607437785900104
+     },
+     "servicos": {
+      "n": 33,
+      "accuracy": 0.39945945224002194
+     }
+    },
+    "macro_f1_excl_ambiguous": 0.3306631097868155
+   },
+   "epu": {
+    "weighted": {
+     "n": 200,
+     "n_pos_true": 18,
+     "n_pos_pred": 56,
+     "accuracy": 0.7707530525364172,
+     "precision": 0.015860696053766724,
+     "recall": 0.4269337973606677,
+     "f1": 0.030585146363508255,
+     "macro_f1": 0.45029560396606116,
+     "kappa": 0.014487424706584817
+    },
+    "unweighted": {
+     "n": 200,
+     "n_pos_true": 18,
+     "n_pos_pred": 56,
+     "accuracy": 0.74,
+     "precision": 0.19642857142857142,
+     "recall": 0.6111111111111112,
+     "f1": 0.2972972972972973,
+     "macro_f1": 0.5688940474216548,
+     "kappa": 0.1864831038798498
+    },
+    "ci_f1": [
+     0.013170689085616258,
+     0.06078123470509449
+    ],
+    "confusion": {
+     "epu": {
+      "epu": 11,
+      "not": 45
+     },
+     "not": {
+      "epu": 7,
+      "not": 137
+     }
+    }
+   }
+  },
+  "dev": {
+   "n_labelled": 100,
+   "kish_n_eff": 32.6849117227278,
+   "relevance": {
+    "weighted": {
+     "n": 100,
+     "n_pos_true": 78,
+     "n_pos_pred": 61,
+     "accuracy": 0.6213044895533856,
+     "precision": 0.5211653981832866,
+     "recall": 0.6332407692821841,
+     "f1": 0.5717626723935731,
+     "macro_f1": 0.6161674054542101,
+     "kappa": 0.23802734250240798
+    },
+    "unweighted": {
+     "n": 100,
+     "n_pos_true": 78,
+     "n_pos_pred": 61,
+     "accuracy": 0.65,
+     "precision": 0.8524590163934426,
+     "recall": 0.6666666666666666,
+     "f1": 0.7482014388489209,
+     "macro_f1": 0.5872154735228211,
+     "kappa": 0.20164233576642343
+    },
+    "ci_macro_f1": [
+     0.4454770299869251,
+     0.764705161909538
+    ],
+    "confusion": {
+     "relevant": {
+      "relevant": 52,
+      "irrelevant": 9
+     },
+     "irrelevant": {
+      "relevant": 26,
+      "irrelevant": 13
+     }
+    }
+   },
+   "topic": {
+    "weighted": {
+     "n": 78,
+     "accuracy": 0.3088677491039468,
+     "macro_f1": 0.3426489287180595,
+     "kappa": 0.21978113918448994
+    },
+    "unweighted": {
+     "n": 78,
+     "accuracy": 0.41025641025641024,
+     "macro_f1": 0.47181425137104654,
+     "kappa": 0.317221693625119
+    },
+    "confusion": {
+     "industria": {
+      "industria": 7,
+      "agronegocio": 2,
+      "mercado_financeiro": 0,
+      "mercado_trabalho": 2,
+      "servicos": 3,
+      "none": 0
+     },
+     "agronegocio": {
+      "industria": 1,
+      "agronegocio": 9,
+      "mercado_financeiro": 4,
+      "mercado_trabalho": 1,
+      "servicos": 0,
+      "none": 0
+     },
+     "mercado_financeiro": {
+      "industria": 0,
+      "agronegocio": 1,
+      "mercado_financeiro": 7,
+      "mercado_trabalho": 0,
+      "servicos": 1,
+      "none": 0
+     },
+     "mercado_trabalho": {
+      "industria": 0,
+      "agronegocio": 0,
+      "mercado_financeiro": 1,
+      "mercado_trabalho": 7,
+      "servicos": 0,
+      "none": 0
+     },
+     "servicos": {
+      "industria": 0,
+      "agronegocio": 0,
+      "mercado_financeiro": 2,
+      "mercado_trabalho": 2,
+      "servicos": 2,
+      "none": 0
+     },
+     "none": {
+      "industria": 7,
+      "agronegocio": 5,
+      "mercado_financeiro": 4,
+      "mercado_trabalho": 5,
+      "servicos": 5,
+      "none": 0
+     }
+    }
+   },
+   "sentiment": {
+    "weighted": {
+     "n": 78,
+     "accuracy": 0.47968964925681545,
+     "macro_f1": 0.4604031587413309,
+     "kappa": 0.1607788298527908,
+     "kappa_linear": 0.24647775772189162
+    },
+    "unweighted": {
+     "n": 78,
+     "accuracy": 0.38461538461538464,
+     "macro_f1": 0.39444444444444443,
+     "kappa": 0.06306306306306297,
+     "kappa_linear": 0.18944844124700244
+    },
+    "spearman_score_vs_gold": 0.32948565074167496,
+    "ci_macro_f1": [
+     0.31357608490530214,
+     0.5894309826769167
+    ],
+    "confusion": {
+     "negative": {
+      "negative": 10,
+      "neutral": 12,
+      "positive": 4
+     },
+     "neutral": {
+      "negative": 14,
+      "neutral": 11,
+      "positive": 11
+     },
+     "positive": {
+      "negative": 0,
+      "neutral": 7,
+      "positive": 9
+     }
+    },
+    "per_topic": {
+     "agronegocio": {
+      "n": 17,
+      "accuracy": 0.38133329268906757
+     },
+     "industria": {
+      "n": 15,
+      "accuracy": 0.32248375904358606
+     },
+     "mercado_financeiro": {
+      "n": 18,
+      "accuracy": 0.7570585223401016
+     },
+     "mercado_trabalho": {
+      "n": 17,
+      "accuracy": 0.20252073648388808
+     },
+     "servicos": {
+      "n": 11,
+      "accuracy": 0.7983979204069663
+     }
+    },
+    "macro_f1_excl_ambiguous": 0.42987170169428524
+   },
+   "epu": {
+    "weighted": {
+     "n": 100,
+     "n_pos_true": 13,
+     "n_pos_pred": 22,
+     "accuracy": 0.7816454806592642,
+     "precision": 0.04181015029584146,
+     "recall": 0.4936514783196689,
+     "f1": 0.07709102351806438,
+     "macro_f1": 0.47663280091356414,
+     "kappa": 0.044545692365441814
+    },
+    "unweighted": {
+     "n": 100,
+     "n_pos_true": 13,
+     "n_pos_pred": 22,
+     "accuracy": 0.69,
+     "precision": 0.09090909090909091,
+     "recall": 0.15384615384615385,
+     "f1": 0.11428571428571428,
+     "macro_f1": 0.46320346320346323,
+     "kappa": -0.058743169398907114
+    },
+    "ci_f1": [
+     0.0,
+     0.22794360716681095
+    ],
+    "confusion": {
+     "epu": {
+      "epu": 2,
+      "not": 20
+     },
+     "not": {
+      "epu": 11,
+      "not": 67
+     }
+    }
+   }
+  },
+  "all": {
+   "n_labelled": 300,
+   "kish_n_eff": 98.9251149713433,
+   "relevance": {
+    "weighted": {
+     "n": 300,
+     "n_pos_true": 234,
+     "n_pos_pred": 200,
+     "accuracy": 0.6385034936030911,
+     "precision": 0.5697181118922318,
+     "recall": 0.6588907067466411,
+     "f1": 0.6110683297990737,
+     "macro_f1": 0.6366957410361702,
+     "kappa": 0.2766996094869617
+    },
+    "unweighted": {
+     "n": 300,
+     "n_pos_true": 234,
+     "n_pos_pred": 200,
+     "accuracy": 0.6533333333333333,
+     "precision": 0.825,
+     "recall": 0.7051282051282052,
+     "f1": 0.7603686635944701,
+     "macro_f1": 0.5669313197490422,
+     "kappa": 0.14754098360655743
+    },
+    "ci_macro_f1": [
+     0.5263761519081729,
+     0.7146068776681309
+    ],
+    "confusion": {
+     "relevant": {
+      "relevant": 165,
+      "irrelevant": 35
+     },
+     "irrelevant": {
+      "relevant": 69,
+      "irrelevant": 31
+     }
+    }
+   },
+   "topic": {
+    "weighted": {
+     "n": 234,
+     "accuracy": 0.3776325139187241,
+     "macro_f1": 0.4057346461152006,
+     "kappa": 0.2750404890521986
+    },
+    "unweighted": {
+     "n": 234,
+     "accuracy": 0.4188034188034188,
+     "macro_f1": 0.4740563927546969,
+     "kappa": 0.32295123819249427
+    },
+    "confusion": {
+     "industria": {
+      "industria": 18,
+      "agronegocio": 8,
+      "mercado_financeiro": 0,
+      "mercado_trabalho": 7,
+      "servicos": 8,
+      "none": 0
+     },
+     "agronegocio": {
+      "industria": 3,
+      "agronegocio": 35,
+      "mercado_financeiro": 6,
+      "mercado_trabalho": 4,
+      "servicos": 5,
+      "none": 0
+     },
+     "mercado_financeiro": {
+      "industria": 4,
+      "agronegocio": 1,
+      "mercado_financeiro": 20,
+      "mercado_trabalho": 0,
+      "servicos": 5,
+      "none": 0
+     },
+     "mercado_trabalho": {
+      "industria": 0,
+      "agronegocio": 0,
+      "mercado_financeiro": 1,
+      "mercado_trabalho": 16,
+      "servicos": 0,
+      "none": 0
+     },
+     "servicos": {
+      "industria": 2,
+      "agronegocio": 0,
+      "mercado_financeiro": 5,
+      "mercado_trabalho": 8,
+      "servicos": 9,
+      "none": 0
+     },
+     "none": {
+      "industria": 16,
+      "agronegocio": 7,
+      "mercado_financeiro": 14,
+      "mercado_trabalho": 15,
+      "servicos": 17,
+      "none": 0
+     }
+    }
+   },
+   "sentiment": {
+    "weighted": {
+     "n": 234,
+     "accuracy": 0.4617820311275801,
+     "macro_f1": 0.4367353746283667,
+     "kappa": 0.15965396947306865,
+     "kappa_linear": 0.16738378580500402
+    },
+    "unweighted": {
+     "n": 234,
+     "accuracy": 0.4017094017094017,
+     "macro_f1": 0.40456335578627517,
+     "kappa": 0.09714758164530801,
+     "kappa_linear": 0.1696382205296867
+    },
+    "spearman_score_vs_gold": 0.2442042346250307,
+    "ci_macro_f1": [
+     0.34133153941063277,
+     0.5217583637810561
+    ],
+    "confusion": {
+     "negative": {
+      "negative": 34,
+      "neutral": 34,
+      "positive": 21
+     },
+     "neutral": {
+      "negative": 37,
+      "neutral": 35,
+      "positive": 29
+     },
+     "positive": {
+      "negative": 3,
+      "neutral": 16,
+      "positive": 25
+     }
+    },
+    "per_topic": {
+     "agronegocio": {
+      "n": 51,
+      "accuracy": 0.5566518972997431
+     },
+     "industria": {
+      "n": 43,
+      "accuracy": 0.3901179738920151
+     },
+     "mercado_financeiro": {
+      "n": 46,
+      "accuracy": 0.5391294978823277
+     },
+     "mercado_trabalho": {
+      "n": 50,
+      "accuracy": 0.3632140990611086
+     },
+     "servicos": {
+      "n": 44,
+      "accuracy": 0.5733702976109376
+     }
+    },
+    "macro_f1_excl_ambiguous": 0.3812458569975194
+   },
+   "epu": {
+    "weighted": {
+     "n": 300,
+     "n_pos_true": 31,
+     "n_pos_pred": 78,
+     "accuracy": 0.7747281370561343,
+     "precision": 0.025065660608075194,
+     "recall": 0.46404240274759767,
+     "f1": 0.0475622065816107,
+     "macro_f1": 0.45990965760115954,
+     "kappa": 0.02514045423830158
+    },
+    "unweighted": {
+     "n": 300,
+     "n_pos_true": 31,
+     "n_pos_pred": 78,
+     "accuracy": 0.7233333333333334,
+     "precision": 0.16666666666666666,
+     "recall": 0.41935483870967744,
+     "f1": 0.23853211009174313,
+     "macro_f1": 0.5347446701171547,
+     "kappa": 0.10637381567614124
+    },
+    "ci_f1": [
+     0.014137658639091421,
+     0.10760263949561975
+    ],
+    "confusion": {
+     "epu": {
+      "epu": 13,
+      "not": 65
+     },
+     "not": {
+      "epu": 18,
+      "not": 204
+     }
+    }
+   }
+  }
+ },
+ "intra": null
+}
