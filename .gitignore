@@ -13,3 +13,6 @@ data/processed/
 *.sqlite
 *.sqlite3
 .cache/
+
+# Gold set: the blind labelling file holds article excerpts (redistribution unclear)
+data/gold/to_label.csv

@@ -7,7 +7,7 @@ llm:
   # No temperature/top_p/top_k: Haiku 5.5 and Sonnet 5.5 reject non-default sampling (HTTP 400).
   # Reproducibility comes from the response cache plus recording prompt version and model.
   effort: low            # output_config.effort for bulk scoring; thinking tokens bill as output
-prompt_version: v1
+prompt_version: v2
 cache:
   path: data/processed/llm_cache.sqlite   # keyed by article id + prompt hash + model
 budget:
