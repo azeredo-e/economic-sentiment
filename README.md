@@ -36,7 +36,7 @@ the translation experiment, and the Python port of the forecasting step.
     **not** `sklearn.GradientBoostingRegressor` (tree boosting).
   - **SARIMA benchmark** must match R's `forecast::auto.arima` (BIC, Ljung-Box check).
     `pmdarima.auto_arima` searches a different model set, which would change every relative RMSE.
-- **Corpus:** headline + lead paragraph, stratified sample (about 100 articles per topic per month).
+- **Corpus:** headline + lead paragraph, stratified sample (about 30 articles per topic per month, sized to a $10 total API budget).
 - **Gold set:** about 300 hand-labelled articles (relevance, 3-class sentiment, EPU).
 
 ## Layout
