@@ -34,10 +34,13 @@ the translation experiment, and the Python port of the forecasting step.
   drifts from the thesis, both fixed by design (details in `docs/forecast_port_notes.md`):
   - **Boosting** is componentwise linear L2 boosting (thesis Eqs. 10–11), hand-written,
     **not** `sklearn.GradientBoostingRegressor` (tree boosting).
-  - **SARIMA benchmark** must match R's `forecast::auto.arima` (BIC, Ljung-Box check).
+  - **SARIMA benchmark** must match R's `forecast::auto.arima` as the code calls it (`stepwise = F, approximation = F`, no `ic`; the thesis text says BIC + Ljung-Box, the code does not).
     `pmdarima.auto_arima` searches a different model set, which would change every relative RMSE.
 - **Corpus:** headline + lead paragraph, stratified sample (about 30 articles per topic per month, sized to a $10 total API budget).
-- **Gold set:** about 300 hand-labelled articles (relevance, 3-class sentiment, EPU).
+- **Gold set:** 300 articles (relevance, topic, 3-class sentiment, EPU), stratified and EPU-oversampled.
+  The labels are **provisional**: made by Claude blind to the model, then reviewed by the project
+  owner; results are reported as agreement with those reviewed labels (see `docs/labeling_guide.md`
+  and `eval/agreement.py`), not as an independent human gold standard.
 
 ## Layout
 
@@ -45,14 +48,14 @@ the translation experiment, and the Python port of the forecasting step.
 configs/      model, prompt version, sample sizes
 prompts/      versioned system prompts and few-shot examples
 src/llm_econ_text/
-  data/       Drive download, loaders for the original files
-  llm/        client, Pydantic schema, retries, cost logging
-  agent/      tools + orchestration (M5)
-  eval/       metrics vs gold, translation experiment
-  indices/    monthly aggregation to TESI / TEPU
-  forecast/   Python port of the forecasting pipeline
+  data/       Drive download, loaders, stratified pool, thesis-style EPU flag
+  llm/        cost-aware cached scorer (Batch API), Pydantic schema
+  eval/       gold-sample draw, label sheet, metrics and report vs gold, agreement tool
+  agent/      (planned, M5) tools + orchestration
+  indices/    (planned, M6) monthly aggregation to TESI / TEPU
+  forecast/   (planned, M1/M6) Python port of the forecasting pipeline
 data/         raw / gold / processed (raw is not committed)
-docs/         labeling guide
+docs/         labeling guide, forecast-port notes
 ```
 
 ## Setup

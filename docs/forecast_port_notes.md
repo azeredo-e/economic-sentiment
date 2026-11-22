@@ -16,8 +16,19 @@ and picks the optimal `mstop` by cross-validation (`cv_seq`). *TODO:* read the C
 
 ## 2. SARIMA benchmark
 Every relative RMSE is divided by the SARIMA forecast, so a different benchmark changes every
-number. R's `forecast::auto.arima` (stepwise search, BIC, Ljung-Box check) and
-`pmdarima.auto_arima` do not search the same model set or use the same defaults.
+number. R's `forecast::auto.arima` and `pmdarima.auto_arima` do not search the same model set or
+use the same defaults.
+
+**What the original actually does (checked 2026-11-22; an earlier version of this note said
+"stepwise search, BIC" and was wrong):**
+- Code (`09_Get_Models.R`): `auto.arima(y, stepwise = F, approximation = F, stationary = F,
+  seasonal = T, start.p = 0, start.q = 0)`, i.e. an **exhaustive** (non-stepwise), non-approximated
+  search over seasonal and non-seasonal models. It sets **no `ic` argument**, so R's default
+  (AICc) applies, and no Ljung-Box test appears in any of the R files read.
+- Thesis text (section on the benchmark): says the function was configured to search seasonal
+  and non-seasonal classes "using the Ljung-Box method and the BIC information criterion".
+- These two disagree. M1 must reproduce Table 3 with the code **as written** first, then test a
+  BIC variant, and report which one matches the published numbers.
 
 Options, to be decided at M1 (not yet chosen):
 1. **Run the benchmark through R** (`Rscript` + `forecast`), cache the forecasts, compare with the

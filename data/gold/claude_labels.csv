@@ -1,0 +1,301 @@
+item,relevant,topic,sentiment,epu,ambiguous,note,confidence
+g001,y,mercado_trabalho,neutral,n,y,"Routine Sine vacancy listing; descriptive, no direction (see D5: vacancy lists neutral vs mildly positive)",medium
+g002,y,industria,neutral,n,y,CNI survey: firms say they need more innovation post-pandemic; outlook statement without a clear direction,low
+g003,y,industria,negative,n,y,"Trade balance is external sector, not a listed topic; closest is industria (competitiveness). Worst October in 13 years",low
+g004,y,servicos,negative,n,y,"Municipal decree bans weekend supermarket opening, contested at STF: restriction on retail activity. Health/legal dispute, not EPU",medium
+g005,y,agronegocio,positive,n,y,"Trade-fair promo (bioenergy/sugar-ethanol); sector-growth claims, advertorial tone",low
+g006,y,industria,neutral,n,y,Uruguay's president criticises Brazil's IPI hike on imported cars; Brazil explicit (D1 ok) but effect on Brazil unclear,low
+g007,y,industria,negative,n,n,Cheaper US energy worries Brazilian industry; Brazilian gas 4x costlier,high
+g008,n,,,,n,"Earthquake in Chile: foreign, no Brazil link (D1)",high
+g009,y,industria,neutral,y,y,IPI cut on white goods expires end of June; industry negotiating the extension = undecided policy. Lead does not say firms are unsure,medium
+g010,y,agronegocio,neutral,n,n,"Feature on palm oil: R$1bn revenue in 2015 is a size, not a change",medium
+g011,y,industria,negative,n,y,"Aneel-approved ~10.8% residential energy tariff rise; utilities counted under industria, could be mercado_financeiro (administered prices)",low
+g012,y,servicos,positive,n,n,Vivo expands 4G coverage (telecoms),high
+g013,y,industria,positive,n,n,Alagoas industrial output +20% year on year; retail also up,high
+g014,y,mercado_financeiro,neutral,n,y,Ibovespa 7th straight rise despite S&P downgrade (said to be priced in); descriptive wrap with mixed signals (D4),low
+g015,y,servicos,neutral,n,y,"TCU limits extension of port-terminal contracts; transport infrastructure; a decided ruling, no stated uncertainty",low
+g016,y,agronegocio,positive,n,n,Corn prices start the year higher on strong exports,medium
+g017,y,agronegocio,negative,n,y,Soy producers petition CADE over ALL-Rumo/Cosan merger (less rail space); could be servicos (rail). Antitrust review is not EPU,low
+g018,y,servicos,negative,n,y,Carnival schools cut costs because of the economic crisis; culture/events with weak economic framing,low
+g019,n,,,,n,GDF free shuttle for civil servants: local public-service/traffic measure (R3),high
+g020,y,agronegocio,positive,n,n,City funds R$330k of agribusiness innovation projects (D3: investment/output),medium
+g021,y,agronegocio,positive,n,y,Record commodity prices: good for producers but feeds food inflation (S3),medium
+g022,n,,,,n,Lifestyle feature on Brazilians in Japan,high
+g023,y,mercado_trabalho,neutral,n,y,Routine PAT vacancy listing (D5),medium
+g024,y,agronegocio,neutral,n,y,"Cotton harvest 76% done; rain delays and drought mentioned, no clear direction",medium
+g025,n,,,,y,Lula-Lugo diplomatic meeting; the Itaipu transmission line is incidental (R1),low
+g026,y,servicos,positive,n,n,"Fecomércio-CE/Finep financing for innovation in commerce, services, tourism (D3: credit)",medium
+g027,y,mercado_trabalho,positive,n,n,Macaé led job creation in RJ (Caged),high
+g028,y,mercado_trabalho,neutral,n,y,Routine Sine vacancy listing (D5),medium
+g029,y,servicos,neutral,n,y,"Iberia executive on aviation regulation; Brazilian market explicit; advocacy, not uncertainty",low
+g030,y,mercado_financeiro,neutral,n,n,Daily Ibovespa wrap (+2.91%); causes are US payroll and earnings; descriptive (D4),medium
+g031,y,agronegocio,neutral,y,y,"Planalto may not keep the deal to vote the Forest Code in April: undecided regulatory policy for agribusiness, but pure legislative manoeuvring and no stated effect on firms",low
+g032,y,mercado_financeiro,neutral,n,y,"Market wrap with mixed signals (options expiry, China, Petrobras output); Levy's situation is mentioned but not developed as policy uncertainty (D4)",low
+g033,y,industria,neutral,y,y,"MDIC may revise the used-capital-goods import rule at industry's request; rule undecided, but lead does not say firms are unsure",low
+g034,y,agronegocio,positive,n,y,"Ruralistas celebrate committee approval of the Forest Code, environmentalists protest (S3); conflict rather than uncertainty",low
+g035,y,mercado_financeiro,negative,n,n,BC cuts 2012 GDP projection to 1% and raises the inflation outlook,high
+g036,n,,,,n,Carnival school preparing a parade: culture,high
+g037,y,mercado_trabalho,negative,y,y,Dockworkers strike against MP 595 (port restructuring) fearing job losses; contested policy. Could be servicos (ports),low
+g038,n,,,,n,"Crime/social news (assault, juvenile-centre riot)",high
+g039,n,,,,y,"Candidate's promise of rural insurance and price guarantees: campaign politics, not an economic event (D7). Revised from an earlier 'relevant' to stay consistent",low
+g040,y,servicos,neutral,n,y,SP valets must issue receipts so the city can collect ISS (revenue fell while valets grew); enforcement of a decided rule,low
+g041,n,,,,n,Online appointments for ID cards: public-service delivery (R3),high
+g042,y,industria,positive,n,y,"IEL/CNI supplier-qualification programme for SMEs; promotional, promises more business (D3)",low
+g043,y,industria,positive,n,y,"Cassava residue as brewing input could cut beer production costs ~10%; early research, borderline science news",low
+g044,y,mercado_trabalho,positive,n,n,Quick training courses and year-end retail hiring: positive labour-demand signal (D3),medium
+g045,y,servicos,neutral,n,y,"Retailers' tax-free day, a tax-awareness campaign; descriptive",low
+g046,y,industria,neutral,y,y,"US defers steel/aluminium tariff exemption for Brazil by 30 days, details pending. US policy but a bilateral deal with Brazil; guide says foreign-only uncertainty is not EPU (see D6)",low
+g047,y,industria,positive,n,n,Petrobras record oil output in April,high
+g048,y,mercado_trabalho,neutral,n,y,Routine Sine vacancy listing (D5),medium
+g049,y,mercado_trabalho,neutral,n,y,"Civil-servant complementary pension bill heading to the Senate; public-sector pension regime, topic fit is weak",low
+g050,y,agronegocio,neutral,n,y,"Expointer attendance, below the expected 500k because of rain; trade-fair attendance is a weak economic signal",low
+g051,y,mercado_financeiro,negative,n,y,"State-owned firms cost the Treasury more than they returned in 5 years; public finance, topic fit is weak",low
+g052,n,,,,y,"Cavalgada parade attendance; culture/event, unlike the Expointer trade fair (R1)",low
+g053,y,agronegocio,positive,n,n,Inagro distributes Girolando semen free to raise Maranhão milk output (D3: output),medium
+g054,y,mercado_financeiro,negative,n,y,"State ICMS revenue and taxable turnover fall in MT; fiscal indicator, topic fit is weak",low
+g055,y,agronegocio,positive,n,n,MS creates a single state registration for rural producers; decided simplification,medium
+g056,y,agronegocio,positive,n,n,Record agribusiness exports in November (+30.2%),high
+g057,n,,,,n,"US jobs report: foreign, no Brazil link (D1)",high
+g058,y,servicos,negative,n,y,Cargo robberies +18% in Jundiaí logistics hub; crime statistic with a logistics-cost angle (R1 borderline),low
+g059,y,agronegocio,positive,n,y,Experimental vineyard revives grape growing in São Roque; local feature with mild optimism,low
+g060,y,industria,negative,n,y,Aneel hearing on a 12% / 24.65% energy tariff rise in Goiás; routine annual adjustment (same call as g011),low
+g061,y,agronegocio,positive,n,n,Femult trade fair moves R$15M; Paraná agribusiness GDP forecast +6.2%,medium
+g062,y,servicos,neutral,n,y,"Telebrás head says the state can contract the company without bidding; a legal thesis, not framed as uncertainty",low
+g063,y,mercado_trabalho,negative,y,n,Youths protest MP 1.116/22 and decree 11.061/22 over apprenticeship: contested policy with unclear impact,medium
+g064,y,servicos,neutral,n,y,"Rio Preto recovery committee hands in 83 proposals; plans, not outcomes. Commerce-association led",low
+g065,n,,,,y,President praises businessmen and promises not to 'hinder' them: political speech with no economic data (D7),low
+g066,y,mercado_financeiro,neutral,y,y,"Maia says the Chamber will not vote tax increases; PIS/Cofins reform under study = contested, undecided fiscal policy. Topic fit weak (public finance)",low
+g067,y,agronegocio,negative,y,y,"Ethanol stocks fall on fear of tighter ANP regulation (supply, stocks, targets): policy under consideration. Could be mercado_financeiro",medium
+g068,y,mercado_financeiro,negative,n,y,"Dollar up ~5% and stocks down 3.5% intraday on impeachment turmoil; text ties the move to the political crisis. Political, not economic-policy, uncertainty",medium
+g069,y,mercado_trabalho,neutral,n,y,"City hall selection for 9 social-assistance posts; vacancy-type listing (D5), public sector",low
+g070,y,industria,positive,n,y,Homemade Easter eggs growing; ABICAB expects +20% sales; artisanal food manufacturing/retail,low
+g071,n,,,,n,"US stock indices: foreign, no Brazil link (D1)",high
+g072,n,,,,y,PT campaign videos acknowledging difficulties and promising growth: political advertising (D7),low
+g073,y,industria,positive,n,n,"Forest residues turned into biojewelry/furniture, exports to Europe and North America",medium
+g074,y,industria,negative,n,n,"Eletrobras postpones international projects on financial strain (tariff cuts, drought); utilities",medium
+g075,n,,,,y,Candidate's promise to cut tolls in a TV interview (D7),low
+g076,n,,,,y,Candidate announces a credit-line proposal for small merchants: campaign promise (D7),low
+g077,y,mercado_financeiro,negative,n,n,"Focus: 2011 IPCA forecast raised again to 5.34%, 5th weekly rise",high
+g078,y,industria,positive,n,y,"FGTS releases R$1bn for housing in calamity areas; construction financing, could be mercado_financeiro",low
+g079,y,mercado_financeiro,negative,n,y,"GDP +0.1% confirms a strong slowdown (near stagnation); macro aggregate, topic fit weak (D6)",low
+g080,y,agronegocio,positive,n,n,MS second-crop corn: good productivity despite late planting,medium
+g081,y,mercado_trabalho,positive,n,n,Caruaru formal jobs net positive (all from manufacturing; commerce and services negative),medium
+g082,y,servicos,negative,n,y,"Círio de Nazaré 2012 costs rose because of inflation (Dieese study); religious festival, weak economic framing",low
+g083,y,servicos,positive,n,y,Betting sector boom; regulation and taxation planned and welcomed by the sector,low
+g084,y,agronegocio,negative,n,y,Equine infectious anaemia worries horse breeders in Maranhão; lead mixes unrelated items,low
+g085,y,servicos,negative,y,n,New ANTT minimum freight table adds ~5% cost; CNI says it deepens uncertainty for producers: contested regulated price,medium
+g086,n,,,,n,Flu outbreak at a school: health,high
+g087,n,,,,n,Crime,high
+g088,n,,,,y,Construction workers' COVID deaths: health news with a labour angle (R1 borderline),low
+g089,n,,,,y,Explainer on why the Amazon matters; the Renca mining decision is only the hook,low
+g090,y,agronegocio,neutral,y,y,Sugarcane mills worry about ageing fields while awaiting government RenovaBio targets for 2030 (policy undefined); mixed outlook,low
+g091,y,industria,positive,n,n,"Semana da Indústria in Acre: investment announced for the industrial park (headline says R$23M, lead says R$2M)",medium
+g092,y,mercado_financeiro,neutral,n,y,Energisa debt-settlement campaign for delinquent customers; collections/credit angle on a utility,low
+g093,y,agronegocio,neutral,n,y,"Agriculture minister criticises JBS dominance and BNDES support; concern about concentration, no event",low
+g094,y,servicos,positive,n,y,"FGV consumer-confidence sub-index up 3.5%, highest since Oct 2011; consumption proxy, topic fit weak",low
+g095,y,mercado_financeiro,negative,y,n,Dollar up and Ibovespa down after Lula said the zero-deficit target is unlikely; fiscal target put in doubt,medium
+g096,y,servicos,neutral,y,y,"Campinas proposes ride-hailing rules (residency, own car, annual fee) with disagreement: contested local regulation, no stated effect",low
+g097,y,mercado_trabalho,negative,n,n,"Paraná lost 12k formal jobs in July: third monthly fall, worst since 1995",high
+g098,y,mercado_trabalho,neutral,n,y,Sebrae-SP vacancy listing for people with disabilities (D5),low
+g099,y,mercado_financeiro,negative,n,y,"Guedes cuts 2019 GDP forecast to 1.5%, economy 'at the bottom of the well'; macro aggregate, topic fit weak (D6)",low
+g100,y,agronegocio,positive,n,n,"110 Nelore cattle flown to São Tomé and Príncipe, a US$1.2M export",medium
+g101,y,mercado_trabalho,negative,n,y,TST orders Correios to keep 40% of staff working during a strike; strike disruption with a mitigating ruling,low
+g102,y,agronegocio,positive,n,n,Ministry preparing a milk-quality and export programme with producers (D3: output),medium
+g103,y,mercado_financeiro,negative,y,y,"2023 budget gap of R$175bn to negotiate with Congress, campaign promises uncovered: undecided fiscal policy. Public finance, topic fit weak",low
+g104,y,servicos,positive,n,n,Azul requests new N/NE routes and frequencies from ANAC (expansion),medium
+g105,y,industria,positive,n,y,Record July and year-to-date trade surplus; same topic call as g003 (D6),low
+g106,y,agronegocio,neutral,n,y,"Foreign group buys the largest private grain-storage company; M&A, direction for the economy unclear",low
+g107,n,,,,n,Crime (headline only; the article body is empty),high
+g108,y,industria,negative,y,n,"WTO ruling against Brazilian industrial tax incentives, government will appeal: policy at risk",medium
+g109,y,servicos,positive,n,n,Formiga decree allows commerce to open for Mother's Day (reopening),medium
+g110,n,,,,y,USP smart hospital bed: health-tech R&D with no economic framing,low
+g111,n,,,,n,Public-service absences from the Omicron wave: public administration and health (R3),medium
+g112,y,mercado_trabalho,negative,n,y,"Fiesp: São Paulo industrial employment -0.26% m/m, -3.13% y/y; could be industria",medium
+g113,n,,,,y,"Water-utility works in a poor district: public service delivery (R3), borderline public works",low
+g114,y,mercado_financeiro,neutral,n,y,"B3 says retail BDR trading needs up to two more months of adjustments; implementation delay, not policy uncertainty",low
+g115,y,mercado_financeiro,positive,n,y,"Serasa: 75 of 98 sectors improved their credit rating; economy-wide credit indicator, topic fit weak",low
+g116,n,,,,n,Hepatitis testing campaign: health,high
+g117,n,,,,n,Obituary of a professor,high
+g118,y,servicos,positive,n,y,Teresina Central Market to be revitalised; local commerce infrastructure,low
+g119,y,mercado_financeiro,positive,n,n,"Banco do Brasil Q1 profit R$4bn, +45.7% y/y",high
+g120,y,industria,neutral,n,y,Retrospective on five decades of Manaus Industrial Pole products; descriptive,low
+g121,y,mercado_trabalho,neutral,n,y,"Regional vacancy listing (1,544 openings in 13 cities); descriptive (D5)",low
+g122,y,servicos,negative,n,y,"FGV Monitor do PIB: activity -0.8% m/m, household consumption -2.1% m/m (y/y still up); macro, topic fit weak",low
+g123,y,industria,negative,n,y,"Default rate in the electricity market jumps to 21.9% (CCEE); utilities, could be mercado_financeiro (credit)",low
+g124,y,industria,neutral,n,y,"Petrobras expects stable cash flow once domestic fuel prices rise; good for the firm, costly for consumers",low
+g125,n,,,,n,Religious/social seminar registration,high
+g126,y,servicos,positive,n,n,"Goiânia decree partially reopens commerce (municipal markets, real-estate agencies)",medium
+g127,y,agronegocio,neutral,y,y,"Public hearing on a proposed state fee on primary products in MT: undecided tax proposal, opposition not stated",low
+g128,n,,,,y,Cachaça Fest: music and entertainment festival with a thin economic angle (R1),low
+g129,y,servicos,positive,n,y,"New hydro terminal (R$7M) and a fast-boat line to Mosqueiro/Marajó; transport service launch, partly public works",low
+g130,y,mercado_financeiro,neutral,n,y,"Bovespa up after four losses on election polls; descriptive wrap, political rather than economic-policy driver (D4)",low
+g131,n,,,,y,Vegan-market feature with a recipe segment: anecdotal lifestyle/entrepreneurship (D3),low
+g132,n,,,,n,Traffic accident,high
+g133,y,mercado_financeiro,neutral,n,y,Serasa truck helps consumers check and renegotiate debts; same class as g092,low
+g134,n,,,,n,"Wall Street opening: foreign, no Brazil link (D1)",high
+g135,n,,,,y,Holiday opening hours for markets in Belo Horizonte: local service information,medium
+g136,y,servicos,positive,n,n,LLX contracts Asco Group for oil-and-gas logistics at Porto do Açu (logistics expansion),medium
+g137,y,industria,positive,n,n,Brazil's first autonomous tractor launched by an Espírito Santo company,medium
+g138,y,mercado_trabalho,neutral,n,y,Sine Manaus vacancy listing (D5),medium
+g139,y,mercado_trabalho,positive,n,y,"Education minister promotes Pronatec (technical training and employment); government programme speech, mild positive",low
+g140,y,mercado_financeiro,neutral,y,n,Haddad to present the new fiscal rule replacing the spending cap to Senate leaders: framework undefined and pending approval,medium
+g141,n,,,,n,"Facebook shares: foreign, no Brazil link (D1)",high
+g142,n,,,,y,Campinas studies a municipal emergency aid but lacks budget: local social policy,low
+g143,y,mercado_trabalho,negative,n,n,Juiz de Fora lost jobs for the first time in 2018 (Caged): 254 net losses in May,high
+g144,n,,,,y,TV-show contact list with no news content (input quality problem: the lead is a list of phone numbers),medium
+g145,y,agronegocio,negative,n,y,"Expoagro Itapetininga at risk after R$500k losses in 2013; local trade-fair finances, thin economic signal",low
+g146,y,mercado_financeiro,neutral,n,n,New CVM chief says competition among exchanges will be solved by the market,medium
+g147,n,,,,y,Entrepreneurship profile of a chef with a lean model (D3: business-advice piece),low
+g148,y,mercado_trabalho,neutral,n,y,Civil-service exam for 311 posts in Paraúna; public-sector vacancy listing (D5),low
+g149,n,,,,y,"Governor demands federal aid, threatens to reassess Covid restrictions: state politics and finance",low
+g150,y,agronegocio,positive,n,n,Brazil and US formalise market opening for fresh beef,high
+g151,n,,,,y,"Food trucks at the Auto Show: lifestyle feature, not about the auto industry's economics",low
+g152,n,,,,n,Culture: a Brazilian animator on a Disney film,high
+g153,y,mercado_financeiro,neutral,n,n,Dollar up a third day (+0.75%) awaiting the Fed minutes and watching fiscal news; descriptive wrap (D4),medium
+g154,y,servicos,negative,n,n,"Crisis closes a bar, a nightclub and an ice-cream shop in Divinópolis",medium
+g155,y,mercado_trabalho,negative,n,n,"Divinópolis: 1,260 net jobs lost in Jan-Apr 2020 (Caged)",high
+g156,y,mercado_financeiro,negative,n,n,Focus survey cuts 2013 growth forecast to 2.34% and 2014 to 2.8%,high
+g157,y,servicos,positive,n,y,"FGV consumer confidence up 1.9%, fourth straight rise, near record; consumption proxy, topic fit weak",low
+g158,y,mercado_trabalho,neutral,n,y,Time do Emprego placement programme enrolling in Bariri; programme listing without a hiring signal (D5),low
+g159,y,mercado_trabalho,positive,n,y,"FGV expects unemployment to keep falling in 2013, though employment growth is slower than 2012; mixed",low
+g160,y,industria,negative,n,n,"Industrial output -0.6% in October, third straight fall, weaker than expected",high
+g161,y,agronegocio,neutral,n,y,"Cooperative launches a coffee-quality contest for women producers; promotional, weak economic signal",low
+g162,y,mercado_trabalho,neutral,n,y,Civil-service exams for 82 posts in a small town; public-sector vacancy listing (D5),low
+g163,y,mercado_financeiro,neutral,y,y,"Dollar flat; Sovereign Fund allowed to use FX derivatives, read as a step towards reverse-swap intervention: possible policy move, undecided",low
+g164,y,mercado_financeiro,negative,y,y,"Bolsonaro announces a R$2.5bn budget cut but says the ministry is undecided and 'it may not happen': explicit policy uncertainty. Public finance, topic fit weak",medium
+g165,y,servicos,negative,y,n,"Appeals court suspends the ruling that allowed non-essential commerce to reopen in BH: rules flip between decree, judge and court",medium
+g166,n,,,,n,"Italy and Greece crisis measures: foreign, no Brazil link (D1)",high
+g167,y,mercado_trabalho,positive,n,y,Marfrig agrees to keep 300 jobs for a year at Alegrete (relocating up to 120) after TRT mediation; jobs retained under threat,low
+g168,y,mercado_trabalho,positive,n,y,Outlet Premium opens ~400 year-end temporary jobs; hiring drive rather than a routine list,low
+g169,y,servicos,positive,n,n,Itajaí and Navegantes ports invest R$120M+ to meet demand,medium
+g170,y,agronegocio,positive,n,n,Farmer-founded trading firm Libero gains share from multinational traders,medium
+g171,n,,,,n,Road closure for works in the Federal District: local traffic (R3),medium
+g172,y,agronegocio,neutral,n,y,Cerro Azul ponkan is sweeter in dry weather; product-quality feature,low
+g173,y,agronegocio,negative,n,n,MS corn price -16.7% in April on a bearish external scenario and large stocks,high
+g174,y,industria,negative,n,n,"Industrial output -0.9% in February, -9.1% y/y, vehicles -30%",high
+g175,n,,,,y,"Historical retrospective on the 1990 Collor plans, not current economic news",low
+g176,y,agronegocio,positive,n,n,Acre government plans community pig-farming units with a meatpacker (D3: output),medium
+g177,n,,,,y,"Wildfire in a national park: environmental event, tourism effect incidental",low
+g178,y,servicos,negative,n,y,"Truckers' strike (day 4) hits health and education services in BH over diesel pricing; the policy dispute is the cause, not described as uncertainty",medium
+g179,y,mercado_financeiro,neutral,n,n,BC announces a spot-market dollar purchase auction; descriptive FX intervention,medium
+g180,n,,,,n,"Snow disrupts German airports: foreign, no Brazil link (D1)",high
+g181,y,industria,positive,n,n,"Bidding for the Cáceres export processing zone (R$17M budget, lowest bid R$15.4M): infrastructure investment progressing",medium
+g182,y,servicos,neutral,y,y,Telecom tax exemption (PIS/Cofins/IPI) to be decided at an interministerial meeting next week; pending decision for the sector,low
+g183,y,industria,neutral,n,y,Anfavea: 2022 vehicle output +5.4% but sales falling and December output -11.3% m/m; mixed,low
+g184,y,industria,neutral,n,y,"Partial-month trade surplus with an explainer; descriptive, same class as g003/g105 (D6)",low
+g185,n,,,,n,Fraud investigation in school-transport contracts: crime/corruption,high
+g186,y,mercado_trabalho,positive,n,n,"305k formal jobs created in April, a record for the month",high
+g187,y,industria,negative,n,n,Gas consumption -22.6% y/y in July on weak industry and thermal demand amid recession,medium
+g188,n,,,,y,Direct-selling startup and reseller profile: entrepreneurship feature (D3),low
+g189,n,,,,n,Road closure for sewage works: local public service (R3),high
+g190,y,mercado_financeiro,neutral,y,n,CVM bars funds from buying cryptocurrencies and may complement the guidance by end of March: regulation still being defined,medium
+g191,n,,,,y,Kaolin leak into rivers in Pará: environmental incident at a mine (R1),low
+g192,y,mercado_financeiro,positive,y,y,BC chief says market fear about the change of government has eased: article is about (falling) policy uncertainty; EPU flagged low-confidence,low
+g193,y,industria,negative,n,y,Electricity consumption -2.2% y/y in May (EPE) on a weaker economy and higher tariffs; utilities used as an activity proxy,medium
+g194,y,agronegocio,negative,n,n,"Drought: Northeast cashew harvest could fall up to 80%, 10 of 14 agro-industries suspended",high
+g195,y,mercado_trabalho,negative,n,y,Prison-services contractor suspends contract over unpaid bills and serves notice to guards; labour plus public finance,low
+g196,y,mercado_trabalho,negative,y,n,Protests and transport stoppages against the outsourcing bill under vote: contested labour-law policy,medium
+g197,y,mercado_financeiro,positive,n,y,"Digital banks gaining clients, with consumer advice; sector trend, personal-finance angle (D3)",low
+g198,y,servicos,positive,n,n,"Services volume +1.4% in December, record +10.9% in 2021",high
+g199,y,mercado_financeiro,negative,n,y,"IFI director: 'we are heading for vinegar'; gloomy assessment with no data in the lead; public finance, topic fit weak",low
+g200,y,mercado_trabalho,neutral,n,y,Training-course openings (516 seats); programme listing (D3/D5),low
+g201,y,industria,negative,n,y,Receita revises the cold-drinks tax pass-through to 2.25% from 1.3%: tax-driven price rise on beverages,low
+g202,n,,,,y,Ferry crossing halted at low tide: local transport disruption,low
+g203,y,agronegocio,neutral,y,n,"MP 910 on land regularisation may lapse after environmentalist-ruralist impasse (deadline 19 May): contested, undecided policy",medium
+g204,y,agronegocio,neutral,n,y,Soil-conservation day feature with farming practice; no economic direction (same call as g172),low
+g205,y,agronegocio,positive,n,y,Cage-free egg farm: growing welfare-conscious niche market,low
+g206,y,agronegocio,positive,n,n,Femec expects over R$200M in agribusiness deals (last edition R$196M),medium
+g207,y,servicos,negative,n,n,"Glovo exits Brazil after 12 months, citing a highly competitive market",medium
+g208,n,,,,y,"Demolition for a public park in São Paulo's centre: urban redevelopment, public works (R3)",low
+g209,y,servicos,negative,n,y,"Protest against Covid restrictions that closed bars, shops and schools in the DF; the protest is the hook, the restrictions are the economic content",low
+g210,n,,,,y,Beauty-fair lifestyle feature (a market-size remark is incidental),low
+g211,n,,,,n,Councilmen expelled for corruption: local politics,high
+g212,y,agronegocio,positive,n,n,"Record 12-month agribusiness exports (US$72.4bn, +9.8%)",high
+g213,y,mercado_trabalho,neutral,n,y,Assembly proposes paying a state civil-servant pay adjustment (11.2%) in two instalments; public-sector wages,low
+g214,y,agronegocio,neutral,n,y,Copercampos technology show announced with 160 companies; event promo without numbers,low
+g215,y,mercado_trabalho,neutral,n,y,Regional vacancy listing (150+ openings); descriptive (D5),low
+g216,y,mercado_trabalho,neutral,n,y,"Federal funds released for Sine offices (maintenance, modernisation); administrative",low
+g217,y,servicos,neutral,n,y,Hotel capacity in Cuiabá will fall short of World Cup demand despite 13 new hotels; investment plus bottleneck,low
+g218,y,mercado_trabalho,negative,n,y,Labour inspection halts a Maceió viaduct work for safety irregularities; labour enforcement on public works,low
+g219,y,mercado_financeiro,negative,n,n,"Caixa 2022 net profit R$9.8bn, -43.4% y/y",high
+g220,y,industria,positive,n,y,Best first-half trade surplus in 29 years (US$36.2bn); same class as g003/g105 (D6),low
+g221,n,,,,n,Crime: stolen car,high
+g222,y,servicos,negative,n,y,"BH closes supermarkets, bakeries and snack bars on Sunday under Covid restrictions",low
+g223,y,mercado_financeiro,neutral,n,y,"Analysts expect Dilma to keep growth policies while rebalancing fiscal accounts; continuity, topic fit weak",low
+g224,y,mercado_trabalho,negative,n,y,"Retirees returning to work, 60+ indebtedness +7% (Serasa); podcast episode intro",low
+g225,y,agronegocio,negative,y,n,MT proposes extending the Fethab fee and agribusiness resists: contested fiscal policy aimed at the sector,medium
+g226,y,mercado_financeiro,positive,n,y,Anbima: Q1 M&A value +8.1% (R$25.3bn) but fewer deals (19 vs 22); mixed,low
+g227,n,,,,n,Armed robbery of a fertiliser truck: crime report (compare g058),medium
+g228,y,industria,neutral,n,y,Roraima Industry Fair announced; event promo,low
+g229,y,mercado_financeiro,neutral,n,y,"Bradesco completes integration of HSBC Brazil (R$16bn deal); M&A integration, no direction (same call as g106)",medium
+g230,y,industria,negative,n,y,"CNI survey: tax burden remains industry's main problem (65.3%); persistent obstacle, little change on the quarter",low
+g231,y,servicos,negative,y,y,Truckers' strike (day 3) over diesel pricing; Planalto convenes a meeting and Petrobras announces a cut: pricing policy in flux,low
+g232,y,servicos,negative,n,n,Nightclub files for judicial recovery (R$1.7M debt) as customers drift away,medium
+g233,y,industria,negative,n,y,Property sales falling; builders accept used cars as down payment at a fair,low
+g234,y,industria,neutral,n,y,"Coca-Cola FEMSA to buy Spaipa for US$1.85bn; M&A, no direction (same call as g106/g229)",low
+g235,n,,,,n,Christmas opening hours in Palmas: local information,medium
+g236,y,agronegocio,neutral,n,y,"SP land-regularisation bill passed (48-15) and awaits sanction; rural leaders divided. Decided policy, so not EPU (like g034)",low
+g237,y,mercado_trabalho,positive,n,n,Record August formal hiring in services (128k) and commerce (65k),high
+g238,n,,,,n,Workers' sports games registration,high
+g239,y,mercado_trabalho,neutral,n,y,Senac apprenticeship enrolment; training programme listing (D3/D5),low
+g240,y,agronegocio,negative,n,n,"Fenasucro expects no growth in business (R$2.2bn, same as 2013) amid the sugar-energy crisis",medium
+g241,y,agronegocio,positive,n,n,"Expodireto Cotrijal: organisers cite optimism, a good agribusiness moment and expected summer-crop yields",medium
+g242,y,mercado_financeiro,neutral,n,y,"Local fintech authorised by the BC as a direct-credit company; corporate news, little direction",low
+g243,y,mercado_trabalho,neutral,n,y,"Labour-market challenges (informality, productivity) alongside 526k formal hires in Q1 2023; mixed",low
+g244,y,servicos,negative,n,n,"Tietê-Paraná waterway halted for 6+ months by drought, hurting cargo movement",medium
+g245,y,agronegocio,positive,n,n,Farmland prices up as much as 687% in 3 years on commodity potential,medium
+g246,n,,,,n,"Russia-US diplomatic spat: foreign, no Brazil link (D1)",high
+g247,y,mercado_financeiro,neutral,n,n,Dollar down six sessions to a one-month low; descriptive wrap (D4),medium
+g248,y,agronegocio,positive,n,n,"Sweet-potato growers unite to raise profitability (1,500 ha)",medium
+g249,y,industria,negative,n,n,"Ciesp: 55.6% of Campinas-region firms report lower profitability in February, the worst reading",high
+g250,y,mercado_financeiro,negative,y,n,Levy replaced by Barbosa after credibility loss and two downgrades; direction of fiscal policy in doubt,medium
+g251,y,mercado_trabalho,neutral,n,y,Senai qualification seats (13k) as a pandemic opportunity; programme promo (D3/D5),low
+g252,y,industria,negative,n,y,Espírito Santo oil royalties -25.3% in 2015 (R$433M); extraction vs public-finance angle,medium
+g253,n,,,,y,Prosecutors probe concert contracts by a town in financial distress: local public spending,medium
+g254,y,mercado_financeiro,neutral,y,y,Bank workers protest proposals on central-bank autonomy; institutional monetary-policy dispute. EPU flagged low-confidence,low
+g255,n,,,,n,"Kidnapping of Chinese workers in Nigeria: foreign, no Brazil link (D1)",high
+g256,y,servicos,neutral,n,y,State programme to create 70 new businesses and jobs (D3); programme announcement,low
+g257,y,mercado_trabalho,positive,n,y,Sebrae: micro/small-business owners rose by 2.7M in 2000-2009 (22.9M); self-employment structure,low
+g258,y,mercado_trabalho,neutral,n,y,Sine Manaus vacancy listing (D5),medium
+g259,y,agronegocio,positive,n,n,IBGE raises second-crop corn estimate to 54.6M t (+12.4%),high
+g260,y,mercado_trabalho,neutral,n,y,"Voice actor on AI and dubbing jobs; labour-market effect of technology, opinion piece",low
+g261,n,,,,n,Crime,high
+g262,y,industria,negative,n,y,State assembly opens an inquiry into the electricity distributor's service; utility under political scrutiny,low
+g263,n,,,,n,Municipal road works order: local public works (R3),medium
+g264,y,mercado_trabalho,negative,y,y,TST ministers attack the new ordinance on slave-labour rules: contested labour policy,low
+g265,y,agronegocio,positive,n,y,JN productivity series: headline says agriculture is Brazil's most productive sector; the lead is about a US chip plant,low
+g266,y,servicos,positive,n,n,Petrolina retailers open the last Sundays of 2013 with extended hours,medium
+g267,y,servicos,negative,n,n,Argentina's crisis cuts shopper traffic by more than 50% on the RS border,medium
+g268,n,,,,n,Art exhibition,high
+g269,y,agronegocio,positive,n,y,New rural bridge to ease farm-output transport in Uberlândia; public work with an explicit agricultural-logistics purpose,low
+g270,y,mercado_trabalho,negative,n,n,"Contractor employees stop work over late pay, suspending cut-off and reconnection services",medium
+g271,y,mercado_trabalho,negative,n,y,"Ciesp: Campinas-region industrial employment -0.38% in March, 650 jobs cut; same call as g112 (employment series, could be industria)",medium
+g272,n,,,,y,Markets react to mixed US data; the Brazilian bourse gets one clause (main subject is US indicators),low
+g273,y,agronegocio,positive,n,y,"Pará exports +30% in 2017, led by mining and agribusiness; trade-flow item (D6), agro details dominate",low
+g274,y,servicos,neutral,n,y,ANAC denies airlines exceed legal crew-hour limits; regulator statement in a labour dispute,low
+g275,y,mercado_financeiro,neutral,n,n,Bovespa dips on profit-taking after its best month in 2+ years; descriptive wrap (D4),medium
+g276,y,servicos,neutral,n,y,Court bars private hospitals in two cities from charging market prices for medicines; pricing regulation of health services,low
+g277,y,mercado_financeiro,neutral,n,y,Ibovespa -0.71% to a new 2011 low; descriptive wrap with no stated cause (D4); arguably negative,low
+g278,y,agronegocio,neutral,n,y,Agro 5.0 sustainability forum announced in Chapecó; event notice without data,low
+g279,y,mercado_trabalho,positive,n,n,"Vale do Paraíba and Bragantina create 5.3k jobs in October, +33% y/y",high
+g280,y,mercado_trabalho,positive,n,n,"Paraíba +4,193 formal jobs (Caged); the headline says September but the lead says July 2023",high
+g281,y,servicos,negative,n,n,Truckers' strike (day 9) blocks Rio Grande port access over an unpaid freight adjustment,medium
+g282,y,industria,negative,y,n,"Chamber bill sets a 60% floor of 'profit oil' in pre-salt auctions, surprising and angering the industry: regulatory change",medium
+g283,y,industria,neutral,n,y,"RN industry share of the Northeast unchanged since 2010 (6.8%); static, descriptive",low
+g284,y,mercado_trabalho,positive,n,n,Agriculture led MG hiring in June (31k of 38k formal hires),medium
+g285,y,agronegocio,positive,n,n,"MT soy planting 85.9% done, about 15 points ahead of last year",high
+g286,y,mercado_financeiro,negative,n,y,"Local gasoline price survey: +5 cents to R$4.60-4.94; tiny consumer-price item, topic fit weak",low
+g287,n,,,,y,Student protest over local public transport; city takes over the service (R3),low
+g288,n,,,,y,Craft-business success story with Sebrae support: entrepreneurship profile (D3),low
+g289,y,mercado_financeiro,neutral,n,y,Bovespa unstable before the first-round election; descriptive wrap with political and US drivers (D4),low
+g290,n,,,,n,"French growth forecast: foreign, no Brazil link (D1)",high
+g291,y,mercado_financeiro,neutral,n,y,Finance minister and president say 'the economy is doing well'; officials' claim without data (D7-adjacent),low
+g292,y,mercado_trabalho,negative,n,n,Amazonas lost 18k formal jobs in 2016; nationally dismissals exceeded hires by 1.32M,high
+g293,y,mercado_financeiro,neutral,n,y,Bovespa up after the Fed's tapering decision; Brazilian market but a US-policy driver (D4),low
+g294,y,agronegocio,negative,n,y,MT export revenue -4% in Jan-Sep 2014 although soy exports rose 11%; mixed,low
+g295,y,industria,neutral,y,n,MP 514/10 extending Minha Casa Minha Vida eligibility awaits approval before the 30 June deadline: pending policy the property market is waiting on,medium
+g296,y,mercado_trabalho,positive,n,n,Ceará +10.3k formal jobs in 2019,high
+g297,y,mercado_financeiro,positive,n,y,"Itaú BBA: capital-market fundamentals remain strong (M&A), with a European-crisis caveat for share offerings; mixed",low
+g298,y,mercado_financeiro,positive,n,y,"Consumer feature on banking apps; digital-banking adoption, personal-finance angle (same call as g197)",low
+g299,y,servicos,positive,n,n,Fenics fair expects R$100M in business and 80k visitors,medium
+g300,n,,,,n,Fire-safety audit of municipal hospitals: public health/safety (R3),medium

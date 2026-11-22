@@ -119,3 +119,32 @@ exportadores".
 | industria-8034 | US industrial activity slows | D1 |
 | mercado_financeiro-25850 | Oil up 4% | D2 |
 | mercado_financeiro-9793 | Dollar closes higher | D4 |
+
+## Worked examples
+Eight invented examples (none from the gold set) are in the first sheet of
+`data/gold/labels.xlsx` ("How to label"), generated from `eval/make_label_sheet.py`. They cover:
+a clear negative industry item, incidental crime (`none`), foreign news (D1), a descriptive
+dollar wrap (D4, neutral), a decided policy (EPU `n`), a contested policy (EPU `y`), a clear
+positive agribusiness item, and an ambiguous wage-floor item (S3, `ambiguous = y`).
+
+## Open decisions raised by the first labelling pass (Claude's provisional labels)
+Claude labelled all 300 items blind to the model, from this guide. Where the guide was silent,
+one call was made and applied consistently. Each is a class you can overrule once; the item ids
+are in `data/gold/claude_labels.csv` (notes mention the tag). Counts are approximate.
+
+| # | Class | Items | What was done | Alternative |
+|---|---|---|---|---|
+| D5 | Job-vacancy lists, training-programme and civil-service-exam listings | ~16 | relevant, `mercado_trabalho`, neutral | mildly positive (hiring), or not relevant |
+| D6 | Macro aggregates and trade balance (GDP, trade surplus, consumer confidence, fiscal) | ~16 | forced into the nearest of the five topics (trade → industria, GDP/inflation/fiscal → mercado_financeiro, confidence → servicos) | add a sixth topic `macro`, or treat as not relevant; forcing makes topic accuracy partly arbitrary |
+| D7 | Campaign promises and political speeches about the economy | ~6 | not relevant | relevant when they concern concrete economic policy |
+| R3 | Public works and public-service delivery | ~10 | not relevant | relevant when there is an explicit economic purpose (done for g129, g269) |
+| D3 | Entrepreneurship profiles and business-advice features | ~4 | not relevant | relevant |
+| D8 | M&A and ownership changes | ~5 | neutral sentiment | positive (capital inflow) |
+| D9 | Trade-fair and event announcements | ~8 | relevant, neutral/positive, `none` for parades and festivals | not relevant |
+| D10 | EPU from another country's policy that directly targets Brazil (g046, US steel tariffs) | 1 | EPU `y` | `n` per the "foreign-only" rule |
+| D11 | Regulated utility tariff adjustments | ~5 | `industria`, EPU `n` | `mercado_financeiro` (administered prices) |
+| D12 | Historical retrospectives (g175) | 1 | not relevant | relevant |
+
+Review order that costs the least time: (1) decide D5-D12 once; (2) read all 31 EPU = `y` and the
+66 not-relevant items; (3) spot-check 15 `high`-confidence items (if you overrule several, my
+confidence is miscalibrated).

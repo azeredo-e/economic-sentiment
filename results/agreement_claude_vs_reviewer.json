@@ -1,0 +1,32 @@
+{
+ "items_compared": 300,
+ "reviewed_file_problems": [],
+ "reviewed_file_pending": 0,
+ "fields": {
+  "g_relevant": {
+   "changed": 0,
+   "pct_changed": 0.0,
+   "kappa": 1.0,
+   "changed_items": []
+  },
+  "g_topic": {
+   "changed": 0,
+   "pct_changed": 0.0,
+   "kappa": 1.0,
+   "changed_items": []
+  },
+  "g_sentiment": {
+   "changed": 0,
+   "pct_changed": 0.0,
+   "kappa": 1.0,
+   "changed_items": []
+  },
+  "g_epu": {
+   "changed": 0,
+   "pct_changed": 0.0,
+   "kappa": 1.0,
+   "changed_items": []
+  }
+ },
+ "items_with_any_change": 0
+}
