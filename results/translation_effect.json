@@ -1,0 +1,119 @@
+{
+ "n_items": 300,
+ "flip_rate": {
+  "noise_PT_vs_PT2": {
+   "relevance": 0.06,
+   "topic": 0.04245283018867924,
+   "sentiment": 0.07075471698113207,
+   "epu": 0.04
+  },
+  "translation_PT_vs_EN": {
+   "relevance": 0.10333333333333333,
+   "topic": 0.065,
+   "sentiment": 0.09,
+   "epu": 0.04666666666666667
+  },
+  "translation_PT2_vs_EN": {
+   "relevance": 0.09666666666666666,
+   "topic": 0.034482758620689655,
+   "sentiment": 0.1330049261083744,
+   "epu": 0.02666666666666667
+  }
+ },
+ "ci95": {
+  "relevance": {
+   "a": [
+    0.033,
+    0.09
+   ],
+   "b": [
+    0.073,
+    0.14
+   ],
+   "diff": [
+    0.01,
+    0.077
+   ]
+  },
+  "topic": {
+   "a": [
+    0.015,
+    0.072
+   ],
+   "b": [
+    0.034,
+    0.101
+   ],
+   "diff": [
+    -0.003,
+    0.05
+   ]
+  },
+  "sentiment": {
+   "a": [
+    0.04,
+    0.105
+   ],
+   "b": [
+    0.052,
+    0.132
+   ],
+   "diff": [
+    -0.03,
+    0.07
+   ]
+  },
+  "epu": {
+   "a": [
+    0.02,
+    0.063
+   ],
+   "b": [
+    0.023,
+    0.07
+   ],
+   "diff": [
+    -0.01,
+    0.023
+   ]
+  }
+ },
+ "score_shift": {
+  "noise_PT_vs_PT2": {
+   "n": 212,
+   "mean_signed_shift": 0.003,
+   "mean_abs_shift": 0.051,
+   "share_abs_shift_ge_0.2": 0.052,
+   "spearman": 0.974
+  },
+  "translation_PT_vs_EN": {
+   "n": 200,
+   "mean_signed_shift": 0.012,
+   "mean_abs_shift": 0.062,
+   "share_abs_shift_ge_0.2": 0.105,
+   "spearman": 0.963
+  }
+ },
+ "agreement_with_gold": {
+  "PT": {
+   "relevance_macro_f1": 0.9137577650584012,
+   "sentiment_macro_f1": 0.749839135211927,
+   "sentiment_acc_unweighted": 0.8247863247863247,
+   "epu_f1": 0.7774459664695385
+  },
+  "PT2": {
+   "relevance_macro_f1": 0.9186032557826582,
+   "sentiment_macro_f1": 0.7749234830641765,
+   "sentiment_acc_unweighted": 0.8162393162393162,
+   "epu_f1": 0.6116118802688321
+  },
+  "EN": {
+   "relevance_macro_f1": 0.8736367641809566,
+   "sentiment_macro_f1": 0.7398218654822588,
+   "sentiment_acc_unweighted": 0.7521367521367521,
+   "epu_f1": 0.7204491059882627
+  }
+ },
+ "items_all_four_labels_identical_PT_vs_PT2": 253,
+ "robust_flip_items": 38
+}

@@ -90,7 +90,7 @@ class Scorer:
             f"{system_prompt}|{effort}|{schema}".encode()
         ).hexdigest()[:16]
         Path(db_path).parent.mkdir(parents=True, exist_ok=True)
-        self.db = sqlite3.connect(db_path)
+        self.db = sqlite3.connect(db_path, timeout=60)
         self.db.execute(
             """CREATE TABLE IF NOT EXISTS calls (
                 id INTEGER PRIMARY KEY, article_id TEXT, model TEXT, prompt_version TEXT,

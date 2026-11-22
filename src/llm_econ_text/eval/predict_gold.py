@@ -39,24 +39,29 @@ def main(argv: list[str] | None = None) -> None:
     ap.add_argument("--name", default="haiku_v2")
     ap.add_argument("--config", default="configs/default.yaml")
     ap.add_argument("--out", default="results")
+    ap.add_argument("--inputs", default="data/gold/to_label.csv",
+                    help="csv with item, headline, lead (e.g. the English translations)")
+    ap.add_argument("--id-suffix", default="",
+                    help="appended to the cache id, e.g. '#en' or '#pt2' for a retest control")
     args = ap.parse_args(argv)
     load_dotenv()
     cfg = yaml.safe_load(Path(args.config).read_text())
     scorer = make_scorer(cfg)
     design = pd.read_csv("data/gold/gold_design.csv")[["item", "article_id"]]
-    blind = pd.read_csv("data/gold/to_label.csv", dtype=str, keep_default_na=False)
+    blind = pd.read_csv(args.inputs, dtype=str, keep_default_na=False)
     items = design.merge(blind[["item", "headline", "lead"]], on="item")
     spent0 = scorer.total_spent()
     rows, repaired, missing = [], 0, []
     for r in items.itertuples():
+        cid = r.article_id + args.id_suffix
         try:
-            res = scorer.score(r.article_id, r.headline, r.lead)
+            res = scorer.score(cid, r.headline, r.lead)
         except BudgetExceeded as e:
             print("STOP:", e)
             break
         label = res.label
         if label is None:
-            label = repaired_label(scorer, r.article_id)
+            label = repaired_label(scorer, cid)
             repaired += label is not None
         if label is None:
             missing.append(r.item)
