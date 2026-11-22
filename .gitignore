@@ -16,3 +16,6 @@ data/processed/
 
 # Gold set: the blind labelling file holds article excerpts (redistribution unclear)
 data/gold/to_label.csv
+data/gold/labels.xlsx
+data/gold/*.xlsx
+data/gold/to_label*.csv
