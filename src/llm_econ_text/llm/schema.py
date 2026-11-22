@@ -29,6 +29,17 @@ def label_from_score(score: float) -> SentimentLabel:
     return "neutral"
 
 
+def normalize_label(label: ArticleLabel) -> tuple[ArticleLabel, bool]:
+    """An irrelevant article carries no sentiment and is never EPU (indices count relevant
+    articles only). Returns (label, coerced); the model's raw output stays in the ledger."""
+    if label.relevant or (label.sentiment == 0 and not label.epu and label.epu_reason is None):
+        return label, False
+    fixed = label.model_copy(
+        update={"sentiment": 0.0, "sentiment_label": "neutral", "epu": False, "epu_reason": None}
+    )
+    return fixed, True
+
+
 class ArticleLabel(BaseModel):
     relevant: bool
     topic: Topic

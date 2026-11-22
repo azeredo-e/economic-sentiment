@@ -54,7 +54,8 @@ def main(argv: list[str] | None = None) -> None:
             "article_id": r.article_id, "source_topic": r.source_topic, "date": r.date,
             "status": res.status, "cost": res.cost_usd,
             "topic": lab.topic if lab else None, "sentiment": lab.sentiment if lab else None,
-            "epu": lab.epu if lab else None, "confidence": lab.confidence if lab else None,
+            "epu": lab.epu if lab else None, "coerced": res.coerced,
+            "confidence": lab.confidence if lab else None,
             "headline": r.headline[:70],
         })
     out = pd.DataFrame(rows)
@@ -70,6 +71,8 @@ def main(argv: list[str] | None = None) -> None:
     paid = calls[calls["cost_usd"] > 0]
     print(out.drop(columns=["date"]).to_string(index=False))
     print(f"\nstatus counts: {out['status'].value_counts().to_dict()}")
+    print(f"coerced (irrelevant but sentiment/EPU reset): {int(out['coerced'].sum())} | "
+          f"EPU flags after normalisation: {int(out['epu'].fillna(False).sum())}")
     print(f"spent this run: ${scorer.total_spent() - spent0:.4f} | ledger total: "
           f"${scorer.total_spent():.4f} of ${cfg['budget']['total_usd']:.2f}")
     if len(paid):

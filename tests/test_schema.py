@@ -44,3 +44,22 @@ def test_epu_needs_reason():
 def test_score_bounds():
     with pytest.raises(ValidationError):
         make(sentiment=1.5)
+
+
+def test_normalize_resets_irrelevant_epu_and_sentiment():
+    from llm_econ_text.llm.schema import normalize_label
+
+    raw = make(relevant=False, topic="none", sentiment=0.4, sentiment_label="positive",
+               epu=True, epu_reason="Incerteza política no Peru.")
+    fixed, coerced = normalize_label(raw)
+    assert coerced
+    assert (fixed.sentiment, fixed.sentiment_label, fixed.epu, fixed.epu_reason) == (
+        0.0, "neutral", False, None)
+
+
+def test_normalize_leaves_relevant_and_clean_irrelevant_alone():
+    from llm_econ_text.llm.schema import normalize_label
+
+    assert normalize_label(make(epu=True, epu_reason="x"))[1] is False
+    clean = make(relevant=False, topic="none", sentiment=0.0, sentiment_label="neutral")
+    assert normalize_label(clean) == (clean, False)
